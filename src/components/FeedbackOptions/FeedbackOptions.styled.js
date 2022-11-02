@@ -8,6 +8,7 @@ const Button = styled.button`
   border: 2px black solid;
   border-radius: 8px;
   cursor: pointer;
+  text-transform: capitalize;
   transition: color 250ms linear;
   transition: background-color 250ms linear;
 
