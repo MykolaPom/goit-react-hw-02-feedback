@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Warning from './Notification.styled';
 
 
-const Notification = ({ text }) => <p>{text}</p>;
+const Notification = ({ text }) => <Warning>{text}</Warning>;
 
 
 Notification.propTypes = {
